@@ -1,39 +1,10 @@
-Slightly modified version in order to work with ionic1/angularjs (the 'bar' class name causes conflicts with the framework default stylesheet)
+Slightly modified version that has been built in order to work with ionic1/angularjs (the original 'bar' class name causes conflicts with the framework default stylesheet)
 
-Updated `var css` to `.progressbar` instead of `.bar`
+Updated `var css` to use `.progressbar` instead of `.bar`
+
+Original repo: https://github.com/jacoborus/nanobar/
 
 ===
-
-![nanobar](https://raw.githubusercontent.com/jacoborus/nanobar/master/brand/nanobar.png 'nanobar logo')
-=======================================================================================================
-
-Very lightweight progress bars (~699 bytes gzipped).
-
-Compatibility: iE7+ and the rest of the world
-
-[![npm version](https://badge.fury.io/js/nanobar.svg)](https://www.npmjs.com/package/nanobar) [![Bower version](https://img.shields.io/bower/v/nanobar.svg?maxAge=2592000)](https://github.com/jacoborus/nanobar/releases)
-
-## Demo
-
-See [nanobar.jacoborus.codes](http://nanobar.jacoborus.codes)
-
-
-## Installation
-
-Download and extract the [latest release](https://github.com/jacoborus/nanobar/archive/master.zip) or install with package manager:
-
-[Bower](http://bower.io/):
-
-```
-$ bower install nanobar
-```
-
-[npm](https://www.npmjs.org/package/nanobar):
-
-```
-$ npm install nanobar
-```
-
 
 ## Usage
 
@@ -105,20 +76,15 @@ Default css:
   width: 100%;
   height: 4px;
   z-index: 9999;
-  top:0
+  top: 0;
 }
-.bar {
+.progressbar {
   width: 0;
   height: 100%;
   transition: height .3s;
-  background:#000;
+  background: #000;
 }
 ```
-
-You should know what to do with that ;)
-
-
-<br><br>
 
 ---
 

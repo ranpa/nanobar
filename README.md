@@ -4,7 +4,7 @@ Updated `var css` to use `.progressbar` instead of `.bar`
 
 Original repo: https://github.com/jacoborus/nanobar/
 
-===
+---
 
 ## Usage
 

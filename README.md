@@ -1,3 +1,9 @@
+Slightly modified version in order to work with ionic1/angularjs (the 'bar' class name causes conflicts with the framework default stylesheet)
+
+Updated `var css` to `.progressbar` instead of `.bar`
+
+===
+
 ![nanobar](https://raw.githubusercontent.com/jacoborus/nanobar/master/brand/nanobar.png 'nanobar logo')
 =======================================================================================================
 
